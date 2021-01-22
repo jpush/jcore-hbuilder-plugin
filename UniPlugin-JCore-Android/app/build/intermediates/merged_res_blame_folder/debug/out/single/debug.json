@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/res/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash.png.flat",
+        "source": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/res/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_push.png.flat",
+        "source": "/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/res/drawable-xxhdpi/push.png"
+    }
+]

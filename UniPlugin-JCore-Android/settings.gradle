@@ -1,0 +1,3 @@
+include ':uniplugin_jcore'
+include ':app'
+
