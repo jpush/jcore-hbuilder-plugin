@@ -1,0 +1,359 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.HBuilder.UniPlugin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:5:5-10:39
+12        android:anyDensity="true"
+12-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:6:9-34
+13        android:largeScreens="true"
+13-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:7:9-36
+14        android:normalScreens="true"
+14-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:8:9-37
+15        android:resizeable="true"
+15-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:9:9-34
+16        android:smallScreens="true" />
+16-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:10:9-36
+17
+18    <!-- Barcode(二维码)  begin -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:13:5-65
+19-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:13:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:14:22-78
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:16:5-60
+22-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:16:19-57
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:17:5-70
+23-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:17:19-67
+24
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:19:5-66
+25-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:19:22-63
+26    <uses-permission android:name="android.permission.FLASHLIGHT" />
+26-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:20:5-69
+26-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:20:22-66
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:17:5-67
+27-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:17:22-64
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:18:5-79
+28-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:18:22-76
+29    <!--
+30    <uses-permission
+31        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+32    -->
+33    <!-- 华为修改角标需要设置权限 -->
+34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+34-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:24:5-91
+34-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:24:22-88
+35    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+35-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:26:5-83
+35-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:26:22-80
+36    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+37    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+37-->[msa_mdid_1.0.13.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/cdaea7ce7fe88ff3e2ab08d91a459662/msa_mdid_1.0.13/AndroidManifest.xml:5:5-75
+37-->[msa_mdid_1.0.13.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/cdaea7ce7fe88ff3e2ab08d91a459662/msa_mdid_1.0.13/AndroidManifest.xml:5:22-72
+38    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" /> <!-- Barcode(二维码)  end -->
+38-->[msa_mdid_1.0.13.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/cdaea7ce7fe88ff3e2ab08d91a459662/msa_mdid_1.0.13/AndroidManifest.xml:8:5-76
+38-->[msa_mdid_1.0.13.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/cdaea7ce7fe88ff3e2ab08d91a459662/msa_mdid_1.0.13/AndroidManifest.xml:8:22-73
+39    <application
+39-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:23:5-94:19
+40        android:name="io.dcloud.application.DCloudApplication"
+40-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:24:9-63
+41        android:allowBackup="true"
+41-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:25:9-35
+42        android:allowClearUserData="true"
+42-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:26:9-42
+43        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+43-->[com.android.support:support-compat:28.0.0] /Users/josh/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+44        android:debuggable="true"
+44-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:30:9-34
+45        android:icon="@drawable/icon"
+45-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:27:9-38
+46        android:label="@string/app_name"
+46-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:28:9-41
+47        android:largeHeap="true"
+47-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:29:9-33
+48        android:supportsRtl="true"
+48-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:31:9-35
+49        android:testOnly="true"
+50        android:usesCleartextTraffic="true" >
+50-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:161:9-44
+51
+52        <!-- 应用入口 -->
+53        <activity
+53-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:34:9-56:20
+54            android:name="io.dcloud.PandoraEntry"
+54-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:35:13-50
+55            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+55-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:37:13-92
+56            android:hardwareAccelerated="true"
+56-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:38:13-47
+57            android:theme="@style/TranslucentTheme"
+57-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:36:13-52
+58            android:windowSoftInputMode="adjustResize" >
+58-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:39:13-55
+59            <intent-filter>
+59-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:40:13-46:29
+60                <data android:scheme="hbuilder" />
+60-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:17-50
+60-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:23-48
+61
+62                <action android:name="android.intent.action.VIEW" />
+62-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:42:17-68
+62-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:42:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:17-75
+64-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:45:17-77
+65-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:45:27-75
+66            </intent-filter>
+67            <intent-filter>
+67-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:47:13-51:29
+68                <data android:mimeType="image/*" />
+68-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:17-50
+68-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:48:23-49
+69
+70                <action android:name="android.intent.action.SEND" />
+70-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:49:17-68
+70-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:49:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:17-75
+72-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:27-73
+73            </intent-filter>
+74            <intent-filter>
+74-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:52:13-55:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:53:17-68
+75-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:53:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:54:17-76
+77-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:54:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <meta-data
+81-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:57:9-58:35
+82            android:name="dcloud_uninview_background"
+82-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:57:20-61
+83            android:value="true" />
+83-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:58:13-33
+84
+85        <activity
+85-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:60:9-84:20
+86            android:name="io.dcloud.PandoraEntryActivity"
+86-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:61:13-58
+87            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+87-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:63:13-101
+88            android:hardwareAccelerated="true"
+88-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:64:13-47
+89            android:launchMode="singleTask"
+89-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:62:13-44
+90            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+90-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:65:13-89
+91            android:screenOrientation="user"
+91-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:66:13-45
+92            android:theme="@style/DCloudTheme"
+92-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:67:13-47
+93            android:windowSoftInputMode="adjustResize" >
+93-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:68:13-55
+94            <intent-filter>
+94-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:70:13-83:29
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:17-75
+95-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:44:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:45:17-77
+96-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:45:27-75
+97
+98                <action android:name="android.intent.action.VIEW" />
+98-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:42:17-68
+98-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:42:25-66
+99
+100                <data android:scheme="h56131bcf" />
+100-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:17-50
+100-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:23-48
+101            </intent-filter>
+102        </activity>
+103
+104        <provider
+104-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:85:9-93:20
+105            android:name="io.dcloud.common.util.DCloud_FileProvider"
+105-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:86:13-69
+106            android:authorities="com.HBuilder.UniPlugin.dc.fileprovider"
+106-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:87:13-73
+107            android:exported="false"
+107-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:88:13-37
+108            android:grantUriPermissions="true" >
+108-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:89:13-47
+109            <meta-data
+109-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:90:13-92:64
+110                android:name="android.support.FILE_PROVIDER_PATHS"
+110-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:91:17-67
+111                android:resource="@xml/dcloud_file_provider" />
+111-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:92:17-61
+112        </provider>
+113
+114        <service
+114-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:162:9-164:40
+115            android:name="io.dcloud.common.adapter.io.MiniServerService"
+115-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:163:13-73
+116            android:exported="false" />
+116-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:164:13-37
+117
+118        <receiver
+118-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:166:9-172:20
+119            android:name="io.dcloud.common.adapter.io.PushReceiver"
+119-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:167:13-68
+120            android:exported="false" >
+120-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:168:13-37
+121            <intent-filter>
+121-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:169:13-171:29
+122                <action android:name="dcloud.push.broswer" />
+122-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:170:17-62
+122-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:170:25-59
+123            </intent-filter>
+124        </receiver>
+125
+126        <activity
+126-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:174:9-177:40
+127            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+127-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:175:13-69
+128            android:exported="false"
+128-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:176:13-37
+129            android:noHistory="true" />
+129-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:177:13-37
+130        <activity
+130-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:178:9-182:58
+131            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+131-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:179:13-79
+132            android:exported="false"
+132-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:180:13-37
+133            android:noHistory="false"
+133-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:181:13-38
+134            android:theme="@style/DeviceDefault.Light" />
+134-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:182:13-55
+135        <activity
+135-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:183:9-193:58
+136            android:name="io.dcloud.WebAppActivity"
+136-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:184:13-52
+137            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+137-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:185:13-92
+138            android:hardwareAccelerated="true"
+138-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:186:13-47
+139            android:icon="@drawable/dcloud_recent"
+139-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:187:13-51
+140            android:label="@string/stream_my"
+140-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:188:13-46
+141            android:launchMode="singleTask"
+141-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:189:13-44
+142            android:screenOrientation="portrait"
+142-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:190:13-49
+143            android:taskAffinity=":stream"
+143-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:191:13-43
+144            android:theme="@style/DCloudTheme"
+144-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:192:13-47
+145            android:windowSoftInputMode="adjustResize" />
+145-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:193:13-55
+146        <activity
+146-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:194:9-200:75
+147            android:name="io.dcloud.ProcessMediator"
+147-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:195:13-53
+148            android:excludeFromRecents="true"
+148-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:196:13-46
+149            android:exported="false"
+149-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:197:13-37
+150            android:label="@string/app_name"
+150-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:198:13-45
+151            android:launchMode="singleTop"
+151-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:199:13-43
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:200:13-72
+153        <activity
+153-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:201:9-207:20
+154            android:name="io.dcloud.WebviewActivity"
+154-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:202:13-53
+155            android:exported="false"
+155-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:203:13-37
+156            android:screenOrientation="portrait"
+156-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:204:13-49
+157            android:theme="@style/ThemeNoTitleBar"
+157-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:205:13-51
+158            android:windowSoftInputMode="adjustPan" >
+158-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:206:13-52
+159        </activity>
+160
+161        <receiver
+161-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:209:9-220:20
+162            android:name="io.dcloud.common.adapter.io.DownloadReceiver"
+162-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:210:13-72
+163            android:exported="false" >
+163-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:211:13-37
+164            <intent-filter>
+164-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:212:13-214:29
+165                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+165-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:213:17-82
+165-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:213:25-79
+166            </intent-filter>
+167            <intent-filter>
+167-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:215:13-219:29
+168                <action android:name="android.intent.action.PACKAGE_ADDED" />
+168-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:216:17-78
+168-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:216:25-75
+169
+170                <data android:scheme="package" /> <!-- HERE! -->
+170-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:17-50
+170-->/Users/josh/work/JIguang/JPush/uniapp/gitlab/jpush-hbuilder-plugin/UniPlugin-JPush-Android/app/src/main/AndroidManifest.xml:41:23-48
+171            </intent-filter>
+172        </receiver>
+173        <!--
+174        <provider
+175            android:name="io.dcloud.common.util.DCloud_FileProvider"
+176            android:authorities="${apk.applicationId}.dc.fileprovider"
+177            android:exported="false"
+178            android:grantUriPermissions="true">
+179            <meta-data
+180                android:name="android.support.FILE_PROVIDER_PATHS"
+181                android:resource="@xml/dcloud_file_provider" />
+182        </provider>
+183        -->
+184        <!--
+185            <meta-data
+186            android:name="DCLOUD_STREAMAPP_CHANNEL"
+187            android:value="io.dcloud.%APPID%|%APPID%|" />
+188        -->
+189        <meta-data
+189-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:238:9-240:35
+190            android:name="android.max_aspect"
+190-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:239:13-46
+191            android:value="2.4" />
+191-->[lib.5plus.base-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/e2169f3832f7f48d2856e4097fbaa59d/lib.5plus.base-release/AndroidManifest.xml:240:13-32
+192
+193        <receiver
+193-->[uniapp-v8-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/10b96b3758e657d9f5c3c3ffdb16eff7/uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+194            android:name="com.taobao.weex.WXGlobalEventReceiver"
+194-->[uniapp-v8-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/10b96b3758e657d9f5c3c3ffdb16eff7/uniapp-v8-release/AndroidManifest.xml:31:13-65
+195            android:enabled="true"
+195-->[uniapp-v8-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/10b96b3758e657d9f5c3c3ffdb16eff7/uniapp-v8-release/AndroidManifest.xml:32:13-35
+196            android:exported="false" >
+196-->[uniapp-v8-release.aar] /Users/josh/.gradle/caches/transforms-2/files-2.1/10b96b3758e657d9f5c3c3ffdb16eff7/uniapp-v8-release/AndroidManifest.xml:33:13-37
+197        </receiver>
+198    </application>
+199
+200</manifest>

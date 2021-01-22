@@ -1,0 +1,2 @@
+com/HBuilder/UniPlugin/BuildConfig.java
+ com.HBuilder.UniPlugin.BuildConfig
