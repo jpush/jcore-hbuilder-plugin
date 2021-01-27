@@ -14,7 +14,7 @@
 				}
 			],
 			"integrateType": "framework",
-			"deploymentTarget": "8.0",
+			"deploymentTarget": "9.0",
             "parameters": {
                 "JPUSH_APPKEY_IOS": {
                     "des": "[iOS]极光 portal 配置应用信息时分配的 AppKey",
@@ -35,7 +35,7 @@
 				}
 			],
 			"integrateType": "aar",
-			"minSdkVersion": "16",
+			"minSdkVersion": "19",
 			"permissions": [
 			],
 			"abis": [  
