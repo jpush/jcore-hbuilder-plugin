@@ -12,3 +12,10 @@
     </a>
 </p>
 
+## Support
+- 更多问题请前往[极光社区](http://community.jiguang.cn/)
+
+## License
+
+MIT © [JiGuang](/license)
+
