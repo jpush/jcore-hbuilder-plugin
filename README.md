@@ -1,6 +1,9 @@
 # jcore-hbuilder-plugin
 
-极光SDK基础组件。极光SDK使用都需要依赖该组件。
+极光 SDK 基础组件。极光 SDK 使用都需要依赖该组件。
+
+## uniapp 插件市场地址
+[极光基础组件SDK](https://ext.dcloud.net.cn/plugin?id=4028)
 
 ## 接入
 - 1.将 nativeplugins/JG-JCore 导入项目对应位置。
