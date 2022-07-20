@@ -441,7 +441,7 @@
 					<key>class</key>
 					<string>JCoreModule</string>
 					<key>name</key>
-					<string>JG-JCore-Google</string>
+					<string>JG-JCoreGoogle</string>
 					<key>type</key>
 					<string>module</string>
 				</dict>
