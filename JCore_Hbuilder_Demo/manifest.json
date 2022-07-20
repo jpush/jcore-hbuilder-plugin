@@ -44,9 +44,9 @@
             "sdkConfigs" : {}
         },
         "nativePlugins" : {
-            "JG-JCore" : {
+            "JG-JCoreGoogle" : {
                 "__plugin_info__" : {
-                    "name" : "JG-JCore",
+                    "name" : "JG-JCoreGoogle",
                     "description" : "极光推送JCore插件",
                     "platforms" : "Android,iOS",
                     "url" : "",
