@@ -6,8 +6,8 @@
 [极光基础组件SDK](https://ext.dcloud.net.cn/plugin?id=4028)
 
 ## 接入
-- 1.将 nativeplugins/JG-JCore 导入项目对应位置。
-- 2.项目 manifest.json 中接入 JG-JCore 插件。并配置好 appkey([极光 portal](https://www.jiguang.cn/accounts/platform) 注册分配)，channel 信息。
+- 1.将 nativeplugins/JG-JCore-Google 导入项目对应位置。
+- 2.项目 manifest.json 中接入 JG-JCore-Google 插件。并配置好 appkey([极光 portal](https://www.jiguang.cn/accounts/platform) 注册分配)，channel 信息。
 
 <p align="center">
     <a target="_blank">

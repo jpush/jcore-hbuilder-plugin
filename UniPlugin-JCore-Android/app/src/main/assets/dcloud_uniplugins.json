@@ -5,7 +5,7 @@
       "plugins": [
         {
           "type": "module",
-          "name": "JG-JCore",
+          "name": "JG-JCore-Google",
           "class": "cn.jiguang.uniplugin_jcore.JCoreModule"
         }
       ]
