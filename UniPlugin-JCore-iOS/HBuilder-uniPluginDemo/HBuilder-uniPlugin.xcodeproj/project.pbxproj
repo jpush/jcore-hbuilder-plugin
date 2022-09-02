@@ -67,8 +67,8 @@
 		24BD5AF21C994A1700B05AA2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BD5AF11C994A1700B05AA2 /* libicucore.tbd */; };
 		24BD5AF61C994BB200B05AA2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BD5AF51C994BB200B05AA2 /* libc++.tbd */; };
 		24F990131DFBDA3300848C2B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F990121DFBDA3300848C2B /* CoreData.framework */; };
+		2A0411DB28C1F48C0066F9AB /* jcore-ios-3.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0411DA28C1F48C0066F9AB /* jcore-ios-3.2.5.a */; };
 		2AC5D69B25B96F2100EA873C /* UniPluginJCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC5D69925B96E3E00EA873C /* UniPluginJCore.framework */; };
-		2AC5D69F25B96F5500EA873C /* jcore-ios-2.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */; };
 		2F0BA3F9215B48A700F67004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0BA3F8215B48A700F67004 /* Images.xcassets */; };
 		2F0BA410215B784100F67004 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BA40F215B784000F67004 /* Contacts.framework */; };
 		2F0BA412215B814100F67004 /* liblibVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BA411215B814000F67004 /* liblibVideo.a */; };
@@ -289,8 +289,8 @@
 		24BD5AF11C994A1700B05AA2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		24BD5AF51C994BB200B05AA2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		24F990121DFBDA3300848C2B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A0411DA28C1F48C0066F9AB /* jcore-ios-3.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jcore-ios-3.2.5.a"; path = "../../JCore_Hbuilder_Demo/nativeplugins/JG-JCoreGoogle/ios/jcore-ios-3.2.5.a"; sourceTree = "<group>"; };
 		2AC5D69425B96E3E00EA873C /* UniPluginJCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniPluginJCore.xcodeproj; path = UniPluginJCore/UniPluginJCore.xcodeproj; sourceTree = "<group>"; };
-		2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jcore-ios-2.4.0.a"; path = "../../JCore_Hbuilder_Demo/nativeplugins/JG-JCoreGoogle/ios/jcore-ios-2.4.0.a"; sourceTree = "<group>"; };
 		2F0BA3F8215B48A700F67004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../HBuilder/Images.xcassets; sourceTree = "<group>"; };
 		2F0BA3FB215B4A4100F67004 /* DCADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCADManager.h; sourceTree = "<group>"; };
 		2F0BA3FD215B4A4100F67004 /* PDRCommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRCommonString.h; sourceTree = "<group>"; };
@@ -644,7 +644,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC5D69F25B96F5500EA873C /* jcore-ios-2.4.0.a in Frameworks */,
 				2AC5D69B25B96F2100EA873C /* UniPluginJCore.framework in Frameworks */,
 				4FE3666A254FE5FC00DCD173 /* libuchardet.a in Frameworks */,
 				67A9340323A8BAF6004A4DF4 /* libSDWebImage.a in Frameworks */,
@@ -761,6 +760,7 @@
 				8E163D021A8D208500308A8B /* AssetsLibrary.framework in Frameworks */,
 				8EED6596198A574C000A4449 /* CoreLocation.framework in Frameworks */,
 				8EED65A8198A6273000A4449 /* OpenGLES.framework in Frameworks */,
+				2A0411DB28C1F48C0066F9AB /* jcore-ios-3.2.5.a in Frameworks */,
 				8EED65A6198A626B000A4449 /* MapKit.framework in Frameworks */,
 				8EED65A0198A5789000A4449 /* Accounts.framework in Frameworks */,
 				8EED659E198A5782000A4449 /* Social.framework in Frameworks */,
@@ -1088,7 +1088,7 @@
 		8EED629A198A1D13000A4449 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */,
+				2A0411DA28C1F48C0066F9AB /* jcore-ios-3.2.5.a */,
 				4FE36669254FE5FB00DCD173 /* libuchardet.a */,
 				6731F3A9232F5B97007838BC /* Photos.framework */,
 				6731F3A6232F5B87007838BC /* UMAnalytics.framework */,
@@ -1412,6 +1412,7 @@
 				ORGANIZATIONNAME = DCloud;
 				TargetAttributes = {
 					8EED6297198A1D13000A4449 = {
+						DevelopmentTeam = UT282795WK;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1642,7 +1643,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UT282795WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1669,10 +1670,10 @@
 					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.push.sndemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jiguang.hxhg;
 				PRODUCT_NAME = UniPluginDemo;
 				PROVISIONING_PROFILE = "a7e03077-46db-4b91-b0c4-20fd613c1e14";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = cn.jiguang.hxhg;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 i386 x86_64";
 				WRAPPER_EXTENSION = app;
