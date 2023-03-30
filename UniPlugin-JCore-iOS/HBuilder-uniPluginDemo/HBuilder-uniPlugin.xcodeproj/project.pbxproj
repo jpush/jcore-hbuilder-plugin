@@ -67,8 +67,8 @@
 		24BD5AF21C994A1700B05AA2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BD5AF11C994A1700B05AA2 /* libicucore.tbd */; };
 		24BD5AF61C994BB200B05AA2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BD5AF51C994BB200B05AA2 /* libc++.tbd */; };
 		24F990131DFBDA3300848C2B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F990121DFBDA3300848C2B /* CoreData.framework */; };
+		2A80E9D029D3ED060021E96B /* jcore-ios-4.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A80E9CF29D3ED060021E96B /* jcore-ios-4.1.0.a */; };
 		2AC5D69B25B96F2100EA873C /* UniPluginJCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC5D69925B96E3E00EA873C /* UniPluginJCore.framework */; };
-		2AC5D69F25B96F5500EA873C /* jcore-ios-2.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */; };
 		2F0BA3F9215B48A700F67004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0BA3F8215B48A700F67004 /* Images.xcassets */; };
 		2F0BA410215B784100F67004 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BA40F215B784000F67004 /* Contacts.framework */; };
 		2F0BA412215B814100F67004 /* liblibVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BA411215B814000F67004 /* liblibVideo.a */; };
@@ -289,8 +289,8 @@
 		24BD5AF11C994A1700B05AA2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		24BD5AF51C994BB200B05AA2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		24F990121DFBDA3300848C2B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A80E9CF29D3ED060021E96B /* jcore-ios-4.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jcore-ios-4.1.0.a"; path = "../../JCore_Hbuilder_Demo/nativeplugins/JG-JCore/ios/jcore-ios-4.1.0.a"; sourceTree = "<group>"; };
 		2AC5D69425B96E3E00EA873C /* UniPluginJCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniPluginJCore.xcodeproj; path = UniPluginJCore/UniPluginJCore.xcodeproj; sourceTree = "<group>"; };
-		2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jcore-ios-2.4.0.a"; path = "../../JCore_Hbuilder_Demo/nativeplugins/JG-JCore/ios/jcore-ios-2.4.0.a"; sourceTree = "<group>"; };
 		2F0BA3F8215B48A700F67004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../HBuilder/Images.xcassets; sourceTree = "<group>"; };
 		2F0BA3FB215B4A4100F67004 /* DCADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCADManager.h; sourceTree = "<group>"; };
 		2F0BA3FD215B4A4100F67004 /* PDRCommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRCommonString.h; sourceTree = "<group>"; };
@@ -644,7 +644,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC5D69F25B96F5500EA873C /* jcore-ios-2.4.0.a in Frameworks */,
 				2AC5D69B25B96F2100EA873C /* UniPluginJCore.framework in Frameworks */,
 				4FE3666A254FE5FC00DCD173 /* libuchardet.a in Frameworks */,
 				67A9340323A8BAF6004A4DF4 /* libSDWebImage.a in Frameworks */,
@@ -658,6 +657,7 @@
 				67229AD3230171AE0093F29A /* libDCUniBarcode.a in Frameworks */,
 				67229AD4230171AE0093F29A /* IJKMediaFramework.framework in Frameworks */,
 				67229AD6230171AE0093F29A /* libDCUniGPUImage.a in Frameworks */,
+				2A80E9D029D3ED060021E96B /* jcore-ios-4.1.0.a in Frameworks */,
 				67229AD8230171AE0093F29A /* libDCUniMap.a in Frameworks */,
 				672CE2B522DC916C005A0D88 /* libDCUniZXing.a in Frameworks */,
 				24AFD8531CB50C4000C0F062 /* liblibLog.a in Frameworks */,
@@ -1088,7 +1088,7 @@
 		8EED629A198A1D13000A4449 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2AC5D69E25B96F5500EA873C /* jcore-ios-2.4.0.a */,
+				2A80E9CF29D3ED060021E96B /* jcore-ios-4.1.0.a */,
 				4FE36669254FE5FB00DCD173 /* libuchardet.a */,
 				6731F3A9232F5B97007838BC /* Photos.framework */,
 				6731F3A6232F5B87007838BC /* UMAnalytics.framework */,
