@@ -14,7 +14,10 @@
                 }
             ],
             "integrateType": "framework",
-            "deploymentTarget": "9.0",
+            "deploymentTarget": "11.0",
+            "validArchitectures": [    
+                "arm64"
+            ],
             "parameters": {
                 "JPUSH_APPKEY_IOS": {
                     "des": "[iOS]极光portal配置应用信息时分配的AppKey",
