@@ -18,6 +18,11 @@ public class JCoreModule extends UniDestroyableModule{
         JCollectionAuth.setAuth(uniContext,enable);
     }
     @UniJSMethod(uiThread = true)
+    public void enableAutoWakeup(boolean enable) {
+        updatePluginStatu();
+        JCollectionAuth.enableAutoWakeup(uniContext,enable);
+    }
+    @UniJSMethod(uiThread = true)
     public void testCountryCode(String code) {
         updatePluginStatu();
         JCoreInterface.testCountryCode(code);
