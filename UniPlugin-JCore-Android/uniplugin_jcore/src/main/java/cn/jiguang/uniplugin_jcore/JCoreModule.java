@@ -25,7 +25,7 @@ public class JCoreModule extends UniDestroyableModule{
     @UniJSMethod(uiThread = true)
     public void testCountryCode(String code) {
         updatePluginStatu();
-        JCoreInterface.testCountryCode(code);
+        JCoreInterface.testCountryCode(uniContext,code);
     }
     @Override
     public void destroy() {
